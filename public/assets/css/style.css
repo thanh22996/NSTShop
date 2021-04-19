@@ -1,0 +1,253 @@
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url("../fonts/webfonts/Montserrat-Medium.woff2") format("woff2"),
+    url("../fonts/webfonts/Montserrat-Medium.woff") format("woff"),
+    url("../fonts/ttf/Montserrat-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/webfonts/Montserrat-Regular.woff2") format("woff2"),
+    url("../fonts/webfonts/Montserrat-Regular.woff") format("woff"),
+    url("../fonts/ttf/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../fonts/webfonts/Montserrat-SemiBold.woff2") format("woff2"),
+    url("../fonts/webfonts/Montserrat-SemiBold.woff") format("woff"),
+    url("../fonts/ttf/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/webfonts/Montserrat-Bold.woff2") format("woff2"),
+    url("../fonts/webfonts/Montserrat-Bold.woff") format("woff"),
+    url("../fonts/ttf/Montserrat-Bold.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("../fonts/webfonts/Montserrat-Light.woff2") format("woff2"),
+    url("../fonts/webfonts/Montserrat-Light.woff") format("woff"),
+    url("../fonts/ttf/Montserrat-Light.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: "PayME San";
+  src: url("../fonts/PayME-San.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "PayMESan-Bold";
+  src: url("../fonts/PayME-San-SVG.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "Prompt-Regular";
+  src: url("../fonts/Prompt-Regular.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "Prompt-SemiBold";
+  src: url("../fonts/Prompt-SemiBold.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+* {
+  font-family: "Montserrat-Regular";
+}
+
+body {
+  background-color: #f0f0f0 !important;
+}
+
+/* ============MENU============ */
+
+.nav-custom {
+  margin-right: 20px;
+  background-color: #f8f9fa;
+}
+
+/* ==========SIDEBAR============ */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500");
+
+body {
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+/* Toggle Styles */
+
+#viewport {
+  padding-left: 250px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#content {
+  width: 100%;
+  position: relative;
+  margin-right: 0;
+}
+
+/* Sidebar Styles */
+
+#sidebar {
+  z-index: 1000;
+  position: fixed;
+  left: 250px;
+  width: 250px;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  background: #37474f;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#sidebar header {
+  background-color: #263238;
+  font-size: 20px;
+  line-height: 52px;
+  text-align: center;
+}
+
+#sidebar header a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+}
+
+#sidebar header a:hover {
+  color: #fff;
+}
+
+#sidebar .nav {
+}
+
+#sidebar .nav a {
+  background: none;
+  border-bottom: 1px solid #455a64;
+  color: #cfd8dc;
+  font-size: 14px;
+  padding: 16px 24px;
+}
+
+#sidebar .nav a:hover {
+  background: none;
+  color: #eceff1;
+}
+
+#sidebar .nav a i {
+  margin-right: 16px;
+}
+
+.img-clother {
+  text-align: center;
+  position: relative;
+}
+.img-clother:hover .btn-add-cart {
+  display: block;
+}
+
+.btn-add-cart {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+  border: none;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #2c2b2b87;
+}
+.btn-add-cart i {
+  font-size: 30px;
+  color: red;
+}
+
+.btn-detail {
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: red;
+  color: white;
+}
+
+.box-product {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-product {
+  font-size: 20px;
+  font-family: "Montserrat-Medium";
+}
+
+.box-detail {
+  margin: 30px 0;
+}
+
+.size-product {
+  margin-right: 15px;
+  border: 1px rgba(0, 0, 0, 0.178) solid;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.box-detail-text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.box-price span {
+  margin-right: 15px;
+}
+
+.price-real {
+  color: #d0021b;
+  font-family: "Montserrat-Bold";
+}
+
+.cost {
+  text-decoration: line-through;
+}
+
+.precent {
+  color: white;
+  background-color: #d0021b;
+  font-family: "Montserrat-Bold";
+  padding: 5px;
+  border-radius: 5px;
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="94px" height="94px" viewBox="0 0 94 94" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ICon_warn</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="134.442835%" id="linearGradient-1">
+            <stop stop-color="#FB3535" offset="0%"></stop>
+            <stop stop-color="#C41919" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="35" cy="35" r="35"></circle>
+        <filter x="-27.1%" y="-24.3%" width="154.3%" height="154.3%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.956380208   0 0 0 0 0.207841392   0 0 0 0 0.207841392  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Working" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="paymePortal_2_user-management_1_add-more-user_2_Udateuser_3_Select-option" transform="translate(-913.000000, -272.000000)">
+            <g id="Group-2" transform="translate(744.000000, 243.000000)">
+                <g id="ICon_warn" transform="translate(181.000000, 39.000000)">
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    </g>
+                    <g id="exclamation" transform="translate(29.166667, 11.666667)" fill="#FFFFFF" fill-rule="nonzero">
+                        <path d="M5.83333333,0.0224358974 C8.99230769,0.0224358974 11.2897436,2.60705128 11.0025641,5.76602564 L8.70512821,28.7403846 L2.96153846,28.7403846 L0.664102564,5.76602564 C0.376923077,2.60705128 2.67435897,0.0224358974 5.83333333,0.0224358974 Z M5.83333333,45.9711538 C2.67435897,45.9711538 0.0897435897,43.3865385 0.0897435897,40.2275641 C0.0897435897,37.0685897 2.67435897,34.4839744 5.83333333,34.4839744 C8.99230769,34.4839744 11.5769231,37.0685897 11.5769231,40.2275641 C11.5769231,43.3865385 8.99230769,45.9711538 5.83333333,45.9711538 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
